@@ -31,7 +31,7 @@ education:
   - Bachelor of Computing (Software Engineering), Curtin University · with Distinction · CWA 82.09
   - Higher Diploma in Computing & Software Engineering (Distinction), Cardiff Metropolitan University
 experience:
-  - Intern Software Developer @ Deloitte (WORK3008 Go Practice Internship, Curtin), 2026
+  - SE Intern @ Deloitte (Go Practice Internship, Curtin), 2026
   - Associate Software Developer @ Frost Colombo (2024)
 focus_areas: [AI engineering, cloud (Azure), DevOps & CI/CD, database-driven apps]
 builds: [AI agents, RAG apps, database-driven web apps, REST APIs]
@@ -42,7 +42,7 @@ off_keyboard: competitive cricket 🏏 (teamwork, discipline and strategy)
 ### 🧭 My journey
 
 <p align="center">
-  <img src="./assets/journey-v7.svg" alt="My journey: Higher Diploma with Distinction at Cardiff Met (2022 to 2024) and an Academic Excellence Special Award, Associate Developer at Frost Colombo (2024), Bachelor of Computing at Curtin with Distinction (2025 to 2027) with Letters of Commendation in Semester 1 2025, Semester 1 2026 and Semester 2 2026, Intern Software Developer at Deloitte through the WORK3008 Go Practice Internship (2026), a Machine Learning Specialisation, and AZ-900 and AI-901 in progress. Next: a graduate or junior software engineering role." width="100%"/>
+  <img src="./assets/journey-v9.svg" alt="My journey: Higher Diploma with Distinction at Cardiff Met (2022 to 2024) and an Academic Excellence Special Award, Associate Developer at Frost Colombo (2024), Bachelor of Computing at Curtin with Distinction (2025 to 2027) with Letters of Commendation in Semester 1 2025, Semester 1 2026 and Semester 2 2026, SE Intern at Deloitte through the Curtin Go Practice Internship (2026), a Machine Learning Specialisation, and AZ-900 and AI-901 in progress. Next: a graduate or junior software engineering role." width="100%"/>
 </p>
 
 ---
