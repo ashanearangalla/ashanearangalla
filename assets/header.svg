@@ -25,11 +25,11 @@
     <clipPath id="c1"><rect x="72" y="196" height="40" width="0">
       <animate attributeName="width" values="0;642;642;642" keyTimes="0;0.12;0.25;1" dur="16s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
     <clipPath id="c2"><rect x="72" y="196" height="40" width="0">
-      <animate attributeName="width" values="0;536;536;536" keyTimes="0;0.12;0.25;1" dur="16s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
+      <animate attributeName="width" values="0;642;642;642" keyTimes="0;0.12;0.25;1" dur="16s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
     <clipPath id="c3"><rect x="72" y="196" height="40" width="0">
-      <animate attributeName="width" values="0;562;562;562" keyTimes="0;0.12;0.25;1" dur="16s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
+      <animate attributeName="width" values="0;576;576;576" keyTimes="0;0.12;0.25;1" dur="16s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
     <clipPath id="c4"><rect x="72" y="196" height="40" width="0">
-      <animate attributeName="width" values="0;616;616;616" keyTimes="0;0.12;0.25;1" dur="16s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
+      <animate attributeName="width" values="0;576;576;576" keyTimes="0;0.12;0.25;1" dur="16s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
   <style>
@@ -38,6 +38,8 @@
     .hi   { font: 600 20px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #36bcf7; letter-spacing: 3px; }
     .type { font: 600 22px Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #e6f4ff; }
     .prompt { font: 700 22px Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #7f5af0; }
+    .int  { font: 700 13px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #8fb3cc; letter-spacing: 2px; }
+    .chip { font: 700 14px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #e6f4ff; }
     .edge { stroke: #36bcf7; stroke-opacity: 0.45; stroke-width: 2; stroke-dasharray: 6 8; }
     .node { fill: #0b1220; stroke: #36bcf7; stroke-width: 2.5; }
   </style>
@@ -51,7 +53,7 @@
   <rect x="72" y="156" width="120" height="4" rx="2" fill="url(#accent)">
     <animate attributeName="width" values="40;180;40" dur="6s" repeatCount="indefinite"/>
   </rect>
-  <text x="72" y="190" class="sub">AI · Cloud · DevOps Engineer · Perth, Australia</text>
+  <text x="72" y="190" class="sub">Software Engineer · Perth, Australia</text>
 
   <text x="72" y="228" class="prompt">&gt;</text>
   <g transform="translate(24 0)">
@@ -61,23 +63,37 @@
     </g>
     <g clip-path="url(#c2)" opacity="0">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.24;0.25;1" dur="16s" begin="4s" repeatCount="indefinite"/>
-      <text x="72" y="228" class="type">Building RAG systems, AI agents and GNNs</text>
+      <text x="72" y="228" class="type">Building AI agents, RAG and database-driven apps</text>
     </g>
     <g clip-path="url(#c3)" opacity="0">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.24;0.25;1" dur="16s" begin="8s" repeatCount="indefinite"/>
-      <text x="72" y="228" class="type">Azure | Docker | Jenkins | CI/CD pipelines</text>
+      <text x="72" y="228" class="type">Exploring Azure, Docker and CI/CD pipelines</text>
     </g>
     <g clip-path="url(#c4)" opacity="0">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.24;0.25;1" dur="16s" begin="12s" repeatCount="indefinite"/>
-      <text x="72" y="228" class="type">Shipping AI to the cloud, automated end to end</text>
+      <text x="72" y="228" class="type">Turning ideas into production-ready systems</text>
     </g>
     <rect x="74" y="210" width="12" height="24" fill="#36bcf7">
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-      <animate attributeName="x" values="74;712;712;74;606;606;74;632;632;74;686;686;74" keyTimes="0.0000;0.1200;0.2499;0.2500;0.3700;0.4999;0.5000;0.6200;0.7499;0.7500;0.8700;0.9999;1.0000" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="74;712;712;74;712;712;74;646;646;74;646;646;74" keyTimes="0.0000;0.1200;0.2499;0.2500;0.3700;0.4999;0.5000;0.6200;0.7499;0.7500;0.8700;0.9999;1.0000" dur="16s" repeatCount="indefinite"/>
     </rect>
   </g>
 
-  <!-- right: animated transaction graph (nods to the GNN / AML work) -->
+
+  <!-- interest areas -->
+  <text x="72" y="267" class="int">FOCUS AREAS</text>
+  <g>
+    <rect x="222" y="249" width="58" height="26" rx="13" fill="#36bcf7" fill-opacity="0.15" stroke="#36bcf7" stroke-width="1.5"/>
+    <text x="251" y="267" text-anchor="middle" class="chip">AI</text>
+    <rect x="290" y="249" width="80" height="26" rx="13" fill="#7f5af0" fill-opacity="0.15" stroke="#7f5af0" stroke-width="1.5"/>
+    <text x="330" y="267" text-anchor="middle" class="chip">Cloud</text>
+    <rect x="380" y="249" width="92" height="26" rx="13" fill="#2cb67d" fill-opacity="0.15" stroke="#2cb67d" stroke-width="1.5"/>
+    <text x="426" y="267" text-anchor="middle" class="chip">DevOps</text>
+    <rect x="482" y="249" width="196" height="26" rx="13" fill="#f9a826" fill-opacity="0.15" stroke="#f9a826" stroke-width="1.5"/>
+    <text x="580" y="267" text-anchor="middle" class="chip">Database-driven apps</text>
+  </g>
+
+  <!-- right: animated network graph -->
   <circle cx="985" cy="150" r="150" fill="url(#glow)"/>
   <g>
     <line class="edge" x1="870" y1="90"  x2="980" y2="60"><animate attributeName="stroke-dashoffset" values="28;0" dur="1.6s" repeatCount="indefinite"/></line>

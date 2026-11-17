@@ -19,7 +19,7 @@
     <rect class="tile" x="10" y="10" width="280" height="150" rx="18"/>
     <text x="150" y="80" text-anchor="middle" class="num">20+</text>
     <text x="150" y="112" text-anchor="middle" class="lbl">Full-stack apps built</text>
-    <text x="150" y="136" text-anchor="middle" class="sm">Web · Mobile · APIs · AI</text>
+    <text x="150" y="136" text-anchor="middle" class="sm">Database-driven · Web · Mobile</text>
   </g>
   <g>
     <rect class="tile" x="310" y="10" width="280" height="150" rx="18"/>
@@ -35,9 +35,9 @@
   </g>
   <g>
     <rect class="tile" x="910" y="10" width="280" height="150" rx="18"/>
-    <text x="1050" y="80" text-anchor="middle" class="num">3</text>
+    <text x="1050" y="80" text-anchor="middle" class="num">4</text>
     <text x="1050" y="112" text-anchor="middle" class="lbl">Focus areas</text>
-    <text x="1050" y="136" text-anchor="middle" class="sm">AI · Cloud · DevOps</text>
+    <text x="1050" y="136" text-anchor="middle" class="sm">AI · Cloud · DevOps · Database apps</text>
   </g>
   <rect x="10" y="10" width="0" height="3" rx="1.5" fill="url(#acc)">
     <animate attributeName="width" values="0;1180;1180" keyTimes="0;0.4;1" dur="5s" repeatCount="indefinite"/>
