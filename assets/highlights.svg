@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1b2d"/>
+      <stop offset="100%" stop-color="#16324a"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#36bcf7"/>
+      <stop offset="100%" stop-color="#7f5af0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .num { font: 800 44px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: url(#acc); }
+    .lbl { font: 600 17px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #e6f4ff; }
+    .sm  { font: 500 13px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #8fb3cc; }
+    .tile { fill: url(#card); stroke: #36bcf7; stroke-opacity: 0.35; stroke-width: 1.5; }
+  </style>
+  <g>
+    <rect class="tile" x="10" y="10" width="280" height="150" rx="18"/>
+    <text x="150" y="80" text-anchor="middle" class="num">20+</text>
+    <text x="150" y="112" text-anchor="middle" class="lbl">Full-stack apps built</text>
+    <text x="150" y="136" text-anchor="middle" class="sm">Database-driven · Web · Mobile</text>
+  </g>
+  <g>
+    <rect class="tile" x="310" y="10" width="280" height="150" rx="18"/>
+    <text x="450" y="80" text-anchor="middle" class="num">5</text>
+    <text x="450" y="112" text-anchor="middle" class="lbl">Live, hosted apps</text>
+    <text x="450" y="136" text-anchor="middle" class="sm">Deployed and running in the cloud</text>
+  </g>
+  <g>
+    <rect class="tile" x="610" y="10" width="280" height="150" rx="18"/>
+    <text x="750" y="80" text-anchor="middle" class="num">2</text>
+    <text x="750" y="112" text-anchor="middle" class="lbl">Industry roles</text>
+    <text x="750" y="136" text-anchor="middle" class="sm">Deloitte · Frost Colombo</text>
+  </g>
+  <g>
+    <rect class="tile" x="910" y="10" width="280" height="150" rx="18"/>
+    <text x="1050" y="80" text-anchor="middle" class="num">4</text>
+    <text x="1050" y="112" text-anchor="middle" class="lbl">Focus areas</text>
+    <text x="1050" y="136" text-anchor="middle" class="sm">AI · Cloud · DevOps · Database apps</text>
+  </g>
+  <rect x="10" y="10" width="0" height="3" rx="1.5" fill="url(#acc)">
+    <animate attributeName="width" values="0;1180;1180" keyTimes="0;0.4;1" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
