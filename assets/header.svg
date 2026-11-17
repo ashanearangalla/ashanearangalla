@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220">
+        <animate attributeName="stop-color" values="#0b1220;#0f2027;#0b1220" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#13293d">
+        <animate attributeName="stop-color" values="#13293d;#203a43;#13293d" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#1b4965">
+        <animate attributeName="stop-color" values="#1b4965;#2c5364;#1b4965" dur="12s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#36bcf7"/>
+      <stop offset="100%" stop-color="#7f5af0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#36bcf7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#36bcf7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <clipPath id="c1"><rect x="72" y="196" height="40" width="0">
+      <animate attributeName="width" values="0;642;642;642" keyTimes="0;0.12;0.25;1" dur="16s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="72" y="196" height="40" width="0">
+      <animate attributeName="width" values="0;536;536;536" keyTimes="0;0.12;0.25;1" dur="16s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="72" y="196" height="40" width="0">
+      <animate attributeName="width" values="0;562;562;562" keyTimes="0;0.12;0.25;1" dur="16s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="72" y="196" height="40" width="0">
+      <animate attributeName="width" values="0;616;616;616" keyTimes="0;0.12;0.25;1" dur="16s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <style>
+    .name { font: 800 58px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; letter-spacing: -1px; }
+    .sub  { font: 500 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #a9c7dc; }
+    .hi   { font: 600 20px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #36bcf7; letter-spacing: 3px; }
+    .type { font: 600 22px Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #e6f4ff; }
+    .prompt { font: 700 22px Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #7f5af0; }
+    .edge { stroke: #36bcf7; stroke-opacity: 0.45; stroke-width: 2; stroke-dasharray: 6 8; }
+    .node { fill: #0b1220; stroke: #36bcf7; stroke-width: 2.5; }
+  </style>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#dots)"/>
+
+  <!-- left: text -->
+  <text x="72" y="78" class="hi">HELLO, WORLD. I'M</text>
+  <text x="70" y="140" class="name">Ashane Arangalla</text>
+  <rect x="72" y="156" width="120" height="4" rx="2" fill="url(#accent)">
+    <animate attributeName="width" values="40;180;40" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="72" y="190" class="sub">AI · Cloud · DevOps Engineer · Perth, Australia</text>
+
+  <text x="72" y="228" class="prompt">&gt;</text>
+  <g transform="translate(24 0)">
+    <g clip-path="url(#c1)" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.24;0.25;1" dur="16s" begin="0s" repeatCount="indefinite"/>
+      <text x="72" y="228" class="type">Software Engineering Graduate, Curtin University</text>
+    </g>
+    <g clip-path="url(#c2)" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.24;0.25;1" dur="16s" begin="4s" repeatCount="indefinite"/>
+      <text x="72" y="228" class="type">Building RAG systems, AI agents and GNNs</text>
+    </g>
+    <g clip-path="url(#c3)" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.24;0.25;1" dur="16s" begin="8s" repeatCount="indefinite"/>
+      <text x="72" y="228" class="type">Azure | Docker | Jenkins | CI/CD pipelines</text>
+    </g>
+    <g clip-path="url(#c4)" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.24;0.25;1" dur="16s" begin="12s" repeatCount="indefinite"/>
+      <text x="72" y="228" class="type">Shipping AI to the cloud, automated end to end</text>
+    </g>
+    <rect x="74" y="210" width="12" height="24" fill="#36bcf7">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="74;712;712;74;606;606;74;632;632;74;686;686;74" keyTimes="0.0000;0.1200;0.2499;0.2500;0.3700;0.4999;0.5000;0.6200;0.7499;0.7500;0.8700;0.9999;1.0000" dur="16s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- right: animated transaction graph (nods to the GNN / AML work) -->
+  <circle cx="985" cy="150" r="150" fill="url(#glow)"/>
+  <g>
+    <line class="edge" x1="870" y1="90"  x2="980" y2="60"><animate attributeName="stroke-dashoffset" values="28;0" dur="1.6s" repeatCount="indefinite"/></line>
+    <line class="edge" x1="980" y1="60"  x2="1100" y2="110"><animate attributeName="stroke-dashoffset" values="28;0" dur="1.9s" repeatCount="indefinite"/></line>
+    <line class="edge" x1="870" y1="90"  x2="930" y2="190"><animate attributeName="stroke-dashoffset" values="28;0" dur="2.1s" repeatCount="indefinite"/></line>
+    <line class="edge" x1="930" y1="190" x2="1050" y2="210"><animate attributeName="stroke-dashoffset" values="28;0" dur="1.7s" repeatCount="indefinite"/></line>
+    <line class="edge" x1="1100" y1="110" x2="1050" y2="210"><animate attributeName="stroke-dashoffset" values="28;0" dur="2.3s" repeatCount="indefinite"/></line>
+    <line class="edge" x1="980" y1="60"  x2="1050" y2="210"><animate attributeName="stroke-dashoffset" values="28;0" dur="2.6s" repeatCount="indefinite"/></line>
+    <line class="edge" x1="930" y1="190" x2="860" y2="250"><animate attributeName="stroke-dashoffset" values="28;0" dur="1.8s" repeatCount="indefinite"/></line>
+    <line class="edge" x1="1050" y1="210" x2="1130" y2="260"><animate attributeName="stroke-dashoffset" values="28;0" dur="2s" repeatCount="indefinite"/></line>
+    <!-- the "flagged" transaction -->
+    <line x1="1100" y1="110" x2="1160" y2="40" stroke="#ff5470" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <g>
+    <circle class="node" cx="870"  cy="90"  r="11"/>
+    <circle class="node" cx="980"  cy="60"  r="14"><animate attributeName="r" values="14;17;14" dur="3s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="1100" cy="110" r="12"/>
+    <circle class="node" cx="930"  cy="190" r="13"><animate attributeName="r" values="13;16;13" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle class="node" cx="1050" cy="210" r="15"/>
+    <circle class="node" cx="860"  cy="250" r="9"/>
+    <circle class="node" cx="1130" cy="260" r="9"/>
+    <circle cx="1160" cy="40" r="10" fill="#ff5470">
+      <animate attributeName="r" values="9;13;9" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980"  cy="60"  r="5" fill="#36bcf7"/>
+    <circle cx="930"  cy="190" r="5" fill="#7f5af0"/>
+    <circle cx="1050" cy="210" r="6" fill="#36bcf7"/>
+  </g>
+
+  <!-- bottom waves -->
+  <g>
+    <path fill="#36bcf7" fill-opacity="0.10" d="M0 285 C 150 265, 300 305, 450 285 S 750 265, 900 285 S 1200 305, 1350 285 S 1650 265, 1800 285 S 2100 305, 2400 285 V 320 H 0 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-900 0" dur="18s" repeatCount="indefinite"/>
+    </path>
+    <path fill="#7f5af0" fill-opacity="0.12" d="M0 298 C 150 312, 300 284, 450 298 S 750 312, 900 298 S 1200 284, 1350 298 S 1650 312, 1800 298 S 2100 284, 2400 298 V 320 H 0 Z">
+      <animateTransform attributeName="transform" type="translate" values="-900 0;0 0" dur="22s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
