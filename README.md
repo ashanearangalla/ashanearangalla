@@ -27,12 +27,12 @@ I'm a software engineer based in **Perth, Australia** 🇦🇺. I build **AI-pow
 name: Ashane Arangalla
 location: Perth, WA
 currently:
-  - Software Engineering Intern @ Deloitte, AI & Data team
   - Freelance developer on Upwork
 education:
   - Bachelor of Computing (Software Engineering), Curtin University · CWA 82.09
   - Higher Diploma in Computing & Software Engineering (Distinction), Cardiff Metropolitan University
 experience:
+  - Completed Software Engineering Internship at Deloitte
   - Associate Software Developer @ Frost Colombo (2024)
 focus: [AI engineering, RAG & LLM apps, graph ML, cloud (Azure), APIs]
 learning: [CI/CD, AZ-900, AI-901, AZ-104]
@@ -193,8 +193,7 @@ Pet owners post care requests, and caregivers search for and accept them. Built 
 
 ## 🎯 Currently
 
-- 🔭 Working in Deloitte's **AI & Data** team
-- 🌱 Studying **AI engineering and cloud** every day: AZ-900 → AI-901 → AZ-104, plus CI/CD pipelines
+- 🌱 Studying **AI engineering and cloud computing** every day: AZ-900 → AI-901 → AZ-104, plus CI/CD pipelines
 - ✍️ Writing about cloud deployments in plain language on Medium
 - 🤝 Open to **graduate and junior software, AI or cloud engineering roles** in Australia
 
