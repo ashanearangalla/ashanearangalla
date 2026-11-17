@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Ashane Arangalla · AI, Cloud and DevOps Engineer" width="100%"/>
+  <img src="./assets/header-v2.svg" alt="Ashane Arangalla · Software Engineer · Focus areas: AI, Cloud, DevOps and database-driven apps" width="100%"/>
 </p>
 
 <p align="center">
@@ -10,16 +10,16 @@
 </p>
 
 > [!TIP]
-> **Open to work:** graduate and junior **AI, cloud or DevOps engineering** roles in Australia. Based in Perth and available now.
+> **Open to work:** graduate and junior **software engineering** roles in Australia, especially in **AI, cloud or DevOps**. Based in Perth and available now.
 
 ---
 
 ## 🧑‍💻 About me
 
-I'm a software engineer based in **Perth, Australia** 🇦🇺, focused on **AI, cloud and DevOps**. I build AI-powered systems (RAG pipelines, AI agents and graph ML), ship them in containers to **Azure**, and automate the path from commit to production with **CI/CD**. With 20+ full-stack apps behind me, I care about taking software past "it works on my machine" to something that's deployed, monitored and maintainable.
+I'm a software engineer based in **Perth, Australia** 🇦🇺, with a strong interest in **AI, cloud and DevOps**. I build AI-powered and database-driven applications (RAG pipelines, AI agents, REST APIs) and I'm growing my skills in **Azure**, containers and **CI/CD** to ship them reliably. With 20+ full-stack apps behind me, I care about taking software past "it works on my machine" to something that's deployed, monitored and maintainable.
 
 <p align="center">
-  <img src="./assets/highlights.svg" alt="20+ full-stack apps built · 5 live hosted apps · 2 industry roles · Focus on AI, cloud and DevOps" width="100%"/>
+  <img src="./assets/highlights-v2.svg" alt="20+ full-stack apps built · 5 live hosted apps · 2 industry roles · 4 focus areas: AI, cloud, DevOps and database-driven apps" width="100%"/>
 </p>
 
 ```yaml
@@ -33,22 +33,17 @@ education:
 experience:
   - Completed Software Engineering Internship at Deloitte
   - Associate Software Developer @ Frost Colombo (2024)
-focus: [AI engineering, cloud (Azure), DevOps & CI/CD, RAG & LLM apps, graph ML]
+focus_areas: [AI engineering, cloud (Azure), DevOps & CI/CD, database-driven apps]
+builds: [AI agents, RAG apps, database-driven web apps, REST APIs]
 learning: [AZ-900, AI-901, AZ-104, Jenkins pipelines]
 off_keyboard: competitive cricket 🏏 (teamwork, discipline and strategy)
 ```
 
 ### 🧭 My journey
 
-```mermaid
-timeline
-    Foundations : Higher Diploma in Computing and Software Engineering (Distinction), Cardiff Metropolitan University
-    2024 : Associate Software Developer, Frost Colombo
-    2026 : Software Engineering Internship, Deloitte (AI and Data)
-         : Q-Detect quantum GNN capstone with Deloitte
-         : Completed Bachelor of Computing (Software Engineering), Curtin University
-    Next : Graduate or junior role in AI, cloud or DevOps engineering
-```
+<p align="center">
+  <img src="./assets/journey-v2.svg" alt="My journey: Higher Diploma at Cardiff Met (2022 to 2024), Associate Developer at Frost Colombo (2024), Bachelor of Computing at Curtin (2025 to 2027), Deloitte software engineering internship (2026), awards, commendations, a Machine Learning Specialisation, and AZ-900 and AI-901 in progress. Next: a graduate or junior software engineering role." width="100%"/>
+</p>
 
 ---
 
@@ -60,6 +55,7 @@ timeline
 | 🧠 **Machine learning** | Graph neural networks in PyTorch Geometric (GINEConv, GraphSAGE, GATv2) and a hybrid quantum GNN with PennyLane, served from a model microservice |
 | ☁️ **Cloud (Azure)** | Azure Container Apps, Container Registry, Key Vault, managed identity, Blob Storage, Log Analytics (KQL); secure secret handling |
 | 🔁 **DevOps & CI/CD** | Docker and Docker Compose, Jenkins pipelines, Git and Gitflow workflows, database migrations in deploys (Alembic, EF Core), Linux |
+| 🗄️ **Database-driven apps** | Relational schema design and migrations on PostgreSQL, MySQL and SQL Server; ORMs (SQLAlchemy, SQLModel, EF Core); full-stack apps from database to UI |
 | ⚙️ **Backend & APIs** | FastAPI, ASP.NET Core, Node/Express and PHP REST APIs; JWT auth; RQ/Valkey workers; SQLAlchemy and EF Core |
 | 🖥️ **Frontend & mobile** | React + TypeScript + Vite + Tailwind, D3 visualisations, Streamlit, native Android (Java), JavaFX |
 | 🏗️ **Software design** | Plugin architectures, repository pattern, modular builds (JPMS/Gradle), Gitflow team workflows |
@@ -219,9 +215,9 @@ Pet owners post care requests, and caregivers search for and accept them. Built 
 ## 🎯 Currently
 
 - 🌱 Studying **AI engineering and cloud computing** every day: AZ-900 → AI-901 → AZ-104
-- 🔁 Building **CI/CD pipelines** with Jenkins and containerised deploys to Azure
+- 🔁 Learning **CI/CD pipelines** with Jenkins and containerised deploys to Azure
 - ✍️ Writing about cloud deployments in plain language on [Medium](https://medium.com/@alarangalla)
-- 🤝 Open to **graduate and junior AI, cloud or DevOps engineering roles** in Australia
+- 🤝 Open to **graduate and junior software engineering roles** in Australia, especially in AI, cloud or DevOps
 
 ---
 
@@ -230,5 +226,5 @@ Pet owners post care requests, and caregivers search for and accept them. Built 
 </p>
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="Thanks for stopping by" width="100%"/>
+  <img src="./assets/footer-v2.svg" alt="Thanks for stopping by" width="100%"/>
 </p>
