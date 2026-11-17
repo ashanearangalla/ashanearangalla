@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="660" viewBox="0 0 1280 660">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#13293d"/></linearGradient>
+  <linearGradient id="edu" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#36bcf7"/><stop offset="1" stop-color="#1b8fd1"/></linearGradient>
+  <linearGradient id="work" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7f5af0"/><stop offset="1" stop-color="#5a3fc0"/></linearGradient>
+  <linearGradient id="next" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#36bcf7" stop-opacity="0.25"/><stop offset="1" stop-color="#7f5af0" stop-opacity="0.25"/></linearGradient>
+  <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#36bcf7"/><stop offset="1" stop-color="#7f5af0"/></linearGradient>
+</defs>
+<style>
+  .t  { font: 800 30px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: url(#title); }
+  .st { font: 500 15px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #8fb3cc; }
+  .yr { font: 800 18px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #e6f4ff; }
+  .lane { font: 700 12px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #8fb3cc; letter-spacing: 2px; }
+  .bt { font: 700 13.5px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #ffffff; }
+  .bs { font: 500 11.5px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #eaf6ff; }
+  .ct { font: 700 12px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #e6f4ff; }
+  .cs { font: 500 11px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #8fb3cc; }
+  .lg { font: 600 12px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #8fb3cc; }
+  .nx { font: 800 22px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #e6f4ff; letter-spacing: 3px; }
+  .nt { font: 700 14px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #e6f4ff; }
+  .ns { font: 600 12px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill: #36bcf7; }
+</style>
+<rect width="1280" height="660" rx="18" fill="url(#bg)"/>
+<text x="40" y="52" class="t">My Journey</text>
+<text x="40" y="76" class="st">From my first software engineering class in 2022 to graduate software engineer</text>
+<rect x="142" y="100" width="116" height="490" rx="10" fill="#ffffff" fill-opacity="0.03"/>
+<text x="200.0" y="124" text-anchor="middle" class="yr">2022</text>
+<rect x="262" y="100" width="66" height="490" rx="10" fill="#ffffff" fill-opacity="0.03"/>
+<text x="295.0" y="124" text-anchor="middle" class="yr">2023</text>
+<rect x="332" y="100" width="171" height="490" rx="10" fill="#ffffff" fill-opacity="0.03"/>
+<text x="417.5" y="124" text-anchor="middle" class="yr">2024</text>
+<rect x="507" y="100" width="161" height="490" rx="10" fill="#ffffff" fill-opacity="0.03"/>
+<text x="587.5" y="124" text-anchor="middle" class="yr">2025</text>
+<rect x="672" y="100" width="266" height="490" rx="10" fill="#ffffff" fill-opacity="0.03"/>
+<text x="805.0" y="124" text-anchor="middle" class="yr">2026</text>
+<rect x="942" y="100" width="116" height="490" rx="10" fill="#ffffff" fill-opacity="0.03"/>
+<text x="1000.0" y="124" text-anchor="middle" class="yr">2027</text>
+<text x="1168.5" y="124" text-anchor="middle" class="yr" fill="#36bcf7">NEXT</text>
+<text x="30" y="172.5" class="lane" dominant-baseline="middle">EDUCATION</text>
+<text x="30" y="252.5" class="lane" dominant-baseline="middle">EXPERIENCE</text>
+<text x="30" y="328" class="lane" dominant-baseline="middle">MILESTONES</text>
+<line x1="30" y1="212" x2="1072" y2="212" stroke="#ffffff" stroke-opacity="0.08"/>
+<line x1="30" y1="292" x2="1072" y2="292" stroke="#ffffff" stroke-opacity="0.08"/>
+<line x1="905.0" y1="134" x2="905.0" y2="590" stroke="#2cb67d" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.7"/>
+<g><rect x="220.0" y="145" width="212.1" height="56" rx="12" fill="url(#edu)"><animate attributeName="width" from="0" to="212.1" dur="1s" begin="0s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect><text x="232.0" y="169" class="bt">Higher Diploma (SE)</text><text x="232.0" y="188" class="bs">Cardiff Met · 2022 – 2024</text></g>
+<g><rect x="518.8" y="145" width="441.2" height="56" rx="12" fill="url(#edu)"><animate attributeName="width" from="0" to="441.2" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect><text x="530.8" y="169" class="bt">Bachelor of Computing (SE) · Curtin</text><text x="530.8" y="188" class="bs">Feb 2025 – Feb 2027 · CWA 82.09 (HD)</text></g>
+<g><rect x="330.0" y="225" width="175.0" height="56" rx="12" fill="url(#work)"><animate attributeName="width" from="0" to="175.0" dur="1s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect><text x="342.0" y="249" class="bt">Associate Developer</text><text x="342.0" y="268" class="bs">Frost Colombo · 2024</text></g>
+<g><rect x="692.5" y="225" width="225.0" height="56" rx="12" fill="url(#work)"><animate attributeName="width" from="0" to="225.0" dur="1s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect><text x="704.5" y="249" class="bt">Deloitte · SE Intern</text><text x="704.5" y="268" class="bs">AI and Data team · Q-Detect · 2026</text></g>
+<g><rect x="147" y="306" width="106" height="46" rx="10" fill="#0f1b2d" stroke="#2cb67d" stroke-opacity="0.75" stroke-width="1.4"/>
+<polygon points="157,322 171,329 157,336" fill="#2cb67d"/>
+<text x="178" y="325" class="ct">Day one</text>
+<text x="178" y="341" class="cs">Sep 2022</text></g>
+<g><rect x="337" y="306" width="161" height="46" rx="10" fill="#0f1b2d" stroke="#f9a826" stroke-opacity="0.75" stroke-width="1.4"/>
+<polygon points="353,321 355.4,326.5 361,326.5 356.5,330.2 358,336 353,332.5 348,336 349.5,330.2 345,326.5 350.6,326.5" fill="#f9a826"/>
+<text x="368" y="325" class="ct">Academic Excellence</text>
+<text x="368" y="341" class="cs">Special Award</text></g>
+<g><rect x="337" y="360" width="161" height="46" rx="10" fill="#0f1b2d" stroke="#36bcf7" stroke-opacity="0.75" stroke-width="1.4"/>
+<circle cx="353" cy="383" r="7.5" fill="#36bcf7"/><path d="M349.5 383 l2.5 2.6 l4.5 -5" stroke="#0b1220" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="368" y="379" class="ct">Diploma completed</text>
+<text x="368" y="395" class="cs">Jul 2024 · CWA 75.5</text></g>
+<g><rect x="512" y="306" width="151" height="46" rx="10" fill="#0f1b2d" stroke="#ff5470" stroke-opacity="0.75" stroke-width="1.4"/>
+<rect x="522.5" y="323.5" width="11" height="11" transform="rotate(45 528 329)" fill="#ff5470"/>
+<text x="543" y="325" class="ct">Commendation</text>
+<text x="543" y="341" class="cs">Curtin · Sem 1, 2025</text></g>
+<g><rect x="677" y="306" width="256" height="46" rx="10" fill="#0f1b2d" stroke="#ff5470" stroke-opacity="0.75" stroke-width="1.4"/>
+<rect x="687.5" y="323.5" width="11" height="11" transform="rotate(45 693 329)" fill="#ff5470"/>
+<text x="708" y="325" class="ct">Commendation</text>
+<text x="708" y="341" class="cs">Curtin · Sem 1, 2026</text></g>
+<g><rect x="677" y="360" width="256" height="46" rx="10" fill="#0f1b2d" stroke="#36bcf7" stroke-opacity="0.75" stroke-width="1.4"/>
+<circle cx="693" cy="383" r="7.5" fill="#36bcf7"/><path d="M689.5 383 l2.5 2.6 l4.5 -5" stroke="#0b1220" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="708" y="379" class="ct">Machine Learning Specialisation</text>
+<text x="708" y="395" class="cs">DeepLearning.AI · Stanford · Jul 2026</text></g>
+<g><rect x="677" y="414" width="256" height="46" rx="10" fill="#0f1b2d" stroke="#36bcf7" stroke-opacity="0.75" stroke-width="1.4"/>
+<circle cx="693" cy="437" r="7.5" fill="#36bcf7"/><path d="M689.5 437 l2.5 2.6 l4.5 -5" stroke="#0b1220" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="708" y="433" class="ct">Degree requirements completed</text>
+<text x="708" y="449" class="cs">CWA 82.09 · High Distinction</text></g>
+<g><rect x="677" y="468" width="256" height="46" rx="10" fill="#0f1b2d" stroke="#36bcf7" stroke-opacity="0.75" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="693" cy="491" r="7" fill="none" stroke="#36bcf7" stroke-width="2" stroke-dasharray="3 2.5"><animateTransform attributeName="transform" type="rotate" from="0 693 491" to="360 693 491" dur="6s" repeatCount="indefinite"/></circle>
+<text x="708" y="487" class="ct">AZ-900 Azure Fundamentals</text>
+<text x="708" y="503" class="cs">Microsoft · in progress</text></g>
+<g><rect x="677" y="522" width="256" height="46" rx="10" fill="#0f1b2d" stroke="#36bcf7" stroke-opacity="0.75" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="693" cy="545" r="7" fill="none" stroke="#36bcf7" stroke-width="2" stroke-dasharray="3 2.5"><animateTransform attributeName="transform" type="rotate" from="0 693 545" to="360 693 545" dur="6s" repeatCount="indefinite"/></circle>
+<text x="708" y="541" class="ct">AI-901 Azure AI Fundamentals</text>
+<text x="708" y="557" class="cs">Microsoft · in progress</text></g>
+<g><rect x="947" y="306" width="106" height="46" rx="10" fill="#0f1b2d" stroke="#2cb67d" stroke-opacity="0.75" stroke-width="1.4"/>
+<polygon points="963,323 972,327.5 963,332 954,327.5" fill="#2cb67d"/><rect x="958.5" y="330" width="9" height="5" rx="1.5" fill="#2cb67d"/>
+<text x="978" y="325" class="ct">Graduation</text>
+<text x="978" y="341" class="cs">Feb 2027</text></g>
+<rect x="1082" y="140" width="173" height="440" rx="14" fill="url(#next)" stroke="#36bcf7" stroke-width="1.6"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></rect>
+<path d="M1068 360.0 l10 0 m-5 -6 l6 6 l-6 6" stroke="#36bcf7" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<g transform="translate(1168.5 210)"><circle r="30" fill="#36bcf7" fill-opacity="0.15"/><path d="M0 -18 C 9 -10, 9 4, 5 12 L -5 12 C -9 4, -9 -10, 0 -18 Z" fill="#36bcf7"/><circle cy="-4" r="4" fill="#0b1220"/><path d="M-5 6 L-11 14 L-5 12 Z M5 6 L11 14 L5 12 Z" fill="#7f5af0"/><path d="M-3 13 L0 22 L3 13 Z" fill="#f9a826"><animate attributeName="opacity" values="1;0.3;1" dur="0.6s" repeatCount="indefinite"/></path><animateTransform attributeName="transform" type="translate" values="1168.5 212;1168.5 204;1168.5 212" dur="2.5s" repeatCount="indefinite"/></g>
+<text x="1168.5" y="280" text-anchor="middle" class="nt">Graduate /</text>
+<text x="1168.5" y="300" text-anchor="middle" class="nt">junior software</text>
+<text x="1168.5" y="320" text-anchor="middle" class="nt">engineer role</text>
+<text x="1168.5" y="359" text-anchor="middle" class="ns">AI</text>
+<text x="1168.5" y="378" text-anchor="middle" class="ns">Cloud</text>
+<text x="1168.5" y="397" text-anchor="middle" class="ns">DevOps</text>
+<text x="1168.5" y="416" text-anchor="middle" class="ns">Database apps</text>
+<text x="1168.5" y="454" text-anchor="middle" class="cs">Perth, Australia</text>
+<text x="1168.5" y="473" text-anchor="middle" class="cs">Available now</text>
+<g><rect x="881.0" y="128" width="48" height="16" rx="8" fill="#2cb67d"/><text x="905.0" y="140" text-anchor="middle" style="font:800 10.5px Segoe UI,Arial,sans-serif;fill:#0b1220;letter-spacing:1px">NOW</text><animate attributeName="opacity" values="1;0.55;1" dur="2s" repeatCount="indefinite"/></g>
+<polygon points="32,615 46,622 32,629" fill="#2cb67d"/>
+<text x="52" y="626" class="lg">Start</text>
+<polygon points="124.0,614 126.4,619.5 132.0,619.5 127.5,623.2 129.0,629 124.0,625.5 119.0,629 120.5,623.2 116.0,619.5 121.6,619.5" fill="#f9a826"/>
+<text x="138.0" y="626" class="lg">Award</text>
+<rect x="204.5" y="616.5" width="11" height="11" transform="rotate(45 210.0 622)" fill="#ff5470"/>
+<text x="224.0" y="626" class="lg">Commendation</text>
+<circle cx="346.4" cy="622" r="7.5" fill="#36bcf7"/><path d="M342.9 622 l2.5 2.6 l4.5 -5" stroke="#0b1220" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="360.4" y="626" class="lg">Completed</text>
+<circle cx="461.2" cy="622" r="7" fill="none" stroke="#36bcf7" stroke-width="2" stroke-dasharray="3 2.5"><animateTransform attributeName="transform" type="rotate" from="0 461.2 622" to="360 461.2 622" dur="6s" repeatCount="indefinite"/></circle>
+<text x="475.2" y="626" class="lg">In progress</text>
+<polygon points="590.4,616 599.4,620.5 590.4,625 581.4,620.5" fill="#2cb67d"/><rect x="585.9" y="623" width="9" height="5" rx="1.5" fill="#2cb67d"/>
+<text x="604.4" y="626" class="lg">Graduation</text>
+<rect x="714.4" y="615" width="26" height="14" rx="7" fill="url(#edu)"/><text x="748.4" y="626" class="lg">Education</text>
+<rect x="834.4" y="615" width="26" height="14" rx="7" fill="url(#work)"/><text x="868.4" y="626" class="lg">Work</text>
+</svg>
